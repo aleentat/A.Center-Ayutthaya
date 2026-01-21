@@ -446,6 +446,8 @@ h2 {
 @media (max-width: 768px) {
     .hero {
         background-image: url("../images/acenter_bannerphone.png");
+        height: 200px;
+        background-size: contain;
     }
 }
 
