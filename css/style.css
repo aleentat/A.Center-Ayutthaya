@@ -240,20 +240,20 @@ h2 {
 }
 
 .brand-item {
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 /* Mobile tap support */
 .brand-item:active,
 .brand-item:focus-visible {
-  transform: translateY(-8px);
-  box-shadow: 0 18px 40px rgba(0, 85, 255, 0.25);
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(0, 85, 255, 0.25);
 }
 
 .brand-item:active::before,
 .brand-item:focus-visible::before {
-  opacity: 1;
+    opacity: 1;
 }
 
 @keyframes fadeUp {
@@ -445,8 +445,7 @@ h2 {
 
 @media (max-width: 768px) {
     .hero {
-        background-size: contain;
-        background-color: #0b3c82;
+        background-image: url("../images/acenter_bannerphone.png");
     }
 }
 
