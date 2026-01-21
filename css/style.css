@@ -445,10 +445,11 @@ h2 {
 
 @media (max-width: 768px) {
     .hero {
-        height: auto;
         aspect-ratio: 16 / 9;
-        background-image: url("../images/acenter_bannerphone.png");
-        background-size: cover;
+        height: auto;
+        background-size: contain;
+        background-position: center;
+        background-color: #00358F;
     }
 }
 
