@@ -239,6 +239,23 @@ h2 {
     opacity: 1;
 }
 
+.brand-item {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Mobile tap support */
+.brand-item:active,
+.brand-item:focus-visible {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 85, 255, 0.25);
+}
+
+.brand-item:active::before,
+.brand-item:focus-visible::before {
+  opacity: 1;
+}
+
 @keyframes fadeUp {
     to {
         opacity: 1;
@@ -395,7 +412,7 @@ h2 {
 
 .btn:active {
     transform: scale(0.96);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
 .project-images img:active {
@@ -404,7 +421,7 @@ h2 {
 }
 
 .btn:focus-visible {
-    box-shadow: 0 0 0 3px rgba(77,166,255,0.4);
+    box-shadow: 0 0 0 3px rgba(77, 166, 255, 0.4);
 }
 
 /* FOOTER */
@@ -428,9 +445,8 @@ h2 {
 
 @media (max-width: 768px) {
     .hero {
-        height: auto;
-        aspect-ratio: 4 / 3;
-        min-height: unset;
+        background-size: contain;
+        background-color: #0b3c82;
     }
 }
 
