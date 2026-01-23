@@ -181,7 +181,7 @@ h2 {
 
 .call:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.35);
+    box-shadow: 0 10px 20px rgba(235, 209, 37, 0.35);
 }
 
 .line {
@@ -461,7 +461,7 @@ h2 {
     .hero {
         height: auto;
         min-height: unset;
-        background-image: url("../images/acenter_bannerphone2.png");
+        background-image: url("../images/acenter_bannerphone3.png");
         background-size: cover;
         background-position: center;
         aspect-ratio: 16 / 9;
