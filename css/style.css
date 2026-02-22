@@ -344,6 +344,10 @@ h2 {
     margin-bottom: 50px;
 }
 
+.portfolio-header h2 {
+    font-size: 30px;
+}
+
 .portfolio-category {
     border: 1px solid #e5e7eb;
     border-radius: 18px;
@@ -569,9 +573,124 @@ h2 {
     line-height: 1.7;
 }
 
+/* ---------- TRUST SECTION ---------- */
+
+.trust-section {
+    padding: 90px 20px;
+    text-align: center;
+}
+
+.trust-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.trust-section h2 {
+    font-size: 32px;
+    color: #1e3a8a;
+    margin-bottom: 12px;
+}
+
+.trust-intro {
+    max-width: 700px;
+    margin: 0 auto 60px;
+    color: #475569;
+    line-height: 1.8;
+}
+
+.trust-section h3{
+    font-size: 25px;
+    color: #1c3d9a;
+    margin-bottom: 40px;
+}
+
+/* ROW LAYOUT */
+.trust-row {
+    display: grid;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.top-row {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bottom-row {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* CARD */
+.trust-card {
+    background: #fff;
+    padding: 35px 25px;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    position: relative;
+}
+
+/* ICON */
+.trust-icon {
+    width: 90px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* HEADINGS */
+.trust-card h3 {
+    padding: 14px 1px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.trust-card h3.blue {
+    background: linear-gradient(135deg, #95beff, #3b82f5, #1e3a8a);
+}
+
+.trust-card h3.purple {
+    background: linear-gradient(135deg, #c6aeff, #865aee, #5f11db);
+}
+
+/* LIST */
+.trust-list {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.trust-list li {
+    background: #f1f5f9;
+    margin-bottom: 12px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+/* HIDE FULL LIST */
+.trust-list.full {
+    display: none;
+}
+
+.trust-btn {
+    margin-top: 10px;
+    margin-left: 10px;
+    background: none;
+    border: none;
+    color: #1e3a8a;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px 0;
+    font-family: 'Kanit', sans-serif;
+}
+
 /* MOBILE */
-@media (max-width: 768px) {
-    .portfolio-work {
+@media (max-width: 992px) {
+    .top-row,
+    .bottom-row {
         grid-template-columns: 1fr;
     }
 }
