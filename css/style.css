@@ -348,6 +348,13 @@ h2 {
     font-size: 30px;
 }
 
+.portfolio-header h4 {
+    background: #f9fbff;
+    padding: 6px;
+    border-radius: 20px;
+    color: #3752a8;
+}
+
 .portfolio-category {
     border: 1px solid #e5e7eb;
     border-radius: 18px;
@@ -555,6 +562,7 @@ h2 {
     aspect-ratio: 4 / 3;
     object-fit: cover;
     border-radius: 12px;
+    max-height: 400px;
 }
 
 .work-desc {
@@ -566,6 +574,7 @@ h2 {
     margin-top: 40px;
     color: #1e3a8a;
     font-weight: 600;
+    font-size: 17px;
 }
 
 .work-desc p {
@@ -781,5 +790,88 @@ h2 {
 
     .contact-map iframe {
         min-height: 300px;
+    }
+}
+
+/* MODAL PORTFOLIO */
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 3000;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.modal-content {
+    background: #ffffff;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.modal-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.modal-images img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.modal-images img:active {
+    transform: scale(0.97);
+}
+
+/* IMAGE ZOOM */
+
+.image-viewer {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.9);
+    z-index: 4000;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-viewer img {
+    max-width: 100%;
+    max-height: 90vh;
+    border-radius: 12px;
+}
+
+.image-viewer.active {
+    display: flex;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .modal-content {
+        padding: 20px;
+    }
+
+    .modal-images {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
