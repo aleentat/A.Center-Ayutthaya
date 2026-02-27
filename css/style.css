@@ -304,6 +304,7 @@ h2 {
     justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .service-circle {
