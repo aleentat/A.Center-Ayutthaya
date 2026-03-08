@@ -30,18 +30,23 @@
     </header>
 
     <!-- PORTFOLIO -->
-    <section class="portfolio">
+    <section class="portfolio" portfolio-page>
         <div class="portfolio-header">
             <h2>ผลงานของเรา</h2>
             <p class="portfolio-intro">
                 ตัวอย่างผลงานการติดตั้ง ล้าง และซ่อมเครื่องปรับอากาศ
                 โดยทีมช่างประสบการณ์กว่า 40 ปี
             </p>
+            <div class="portfolio-category-nav">
+                <a href="#private-company" class="portfolio-category-btn">🏢 บริษัทเอกชน</a>
+                <a href="#government" class="portfolio-category-btn">🏛️ หน่วยงานราชการ</a>
+                <a href="#residential" class="portfolio-category-btn">🏡 ที่พักอาศัย</a>
+            </div>
             <h4>กดที่ภาพเพื่อดูรายละเอียดเพิ่มเติม</h4>
         </div>
 
         <!-- CATEGORY 1 -->
-        <div class="portfolio-category">
+        <div class="portfolio-category" id="private-company">
             <h3>🏢 บริษัทเอกชน</h3>
 
             <div class="portfolio-work" onclick="openModal('supermhoo')">
@@ -119,7 +124,7 @@
         </div>
 
         <!-- CATEGORY 2 -->
-        <div class="portfolio-category">
+        <div class="portfolio-category" id="government">
             <h3>🏛️ หน่วยงานราชการ</h3>
 
             <div class="portfolio-work" onclick="openModal('schoolnawong')">
@@ -157,7 +162,7 @@
         </div>
 
         <!-- CATEGORY 3 -->
-        <div class="portfolio-category">
+        <div class="portfolio-category" id="residential">
             <h3>🏡 ที่พักอาศัย</h3>
 
             <div class="portfolio-work" onclick="openModal('parkland')">
