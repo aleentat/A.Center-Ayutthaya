@@ -1,5 +1,5 @@
 window.portfolioData = {
-    // บริษัทเอกชน
+    // ----------------------- บริษัทเอกชน -----------------------
     supermhoo: {
         title: "ร้านซุปเปอร์หมู",
         desc: "ติดตั้งเครื่องปรับอากาศสำหรับร้านขายเนื้อสัตว์ เดินระบบเรียบร้อย",
@@ -69,6 +69,36 @@ window.portfolioData = {
             "images/portfolio/watyai8.jpg"
         ]
     },
+    riche: {
+        title: "ร้านเสริมสวย Riche",
+        desc: "",
+        images: [
+            "images/portfolio/riche1.jpg",
+            "images/portfolio/riche2.jpg",
+            "images/portfolio/riche3.jpg",
+            "images/portfolio/riche4.jpg"
+        ]
+    },
+    vetkrungsri: {
+        title: "โรงพยาบาลสัตว์กรุงศรี",
+        desc: "",
+        images: [
+            "images/portfolio/vetkrungsri1.jpg",
+            "images/portfolio/vetkrungsri2.jpg",
+            "images/portfolio/vetkrungsri3.jpg",
+            "images/portfolio/vetkrungsri4.jpg"
+        ]
+    },
+    yookya: {
+        title: "ร้านหยูกยา",
+        desc: "",
+        images: [
+            "images/portfolio/yookya1.jpg",
+            "images/portfolio/yookya2.jpg",
+            "images/portfolio/yookya3.jpg",
+            "images/portfolio/yookya4.jpg"
+        ]
+    },
     sabaipliw: {
         title: "ร้านสไบปลิว",
         desc: "",
@@ -132,7 +162,57 @@ window.portfolioData = {
             "images/portfolio/utaiprint5.jpg"
         ]
     },
-    // หน่วยงานราชการ
+    inudomdorm: {
+        title: "หอพักอินทร์อุดม",
+        desc: "ติดตั้งแอร์ Central Air ที่หอพักอินทร์อุดม",
+        images: [
+            "images/portfolio/inudomdorm1.jpg",
+            "images/portfolio/inudomdorm2.jpg",
+            "images/portfolio/inudomdorm3.jpg",
+            "images/portfolio/inudomdorm4.jpg",
+            "images/portfolio/inudomdorm5.jpg",
+            "images/portfolio/inudomdorm6.jpg",
+            "images/portfolio/inudomdorm7.jpg",
+            "images/portfolio/inudomdorm8.jpg"
+        ]
+    },
+    chaimongkol: {
+        title: "บ.ชัยมงคล อุตสาหกรรม จำกัด",
+        desc: "",
+        images: [
+            "images/portfolio/chaimongkol1.jpg",
+            "images/portfolio/chaimongkol2.jpg"
+        ]
+    },
+    watyai_compressor: {
+        title: "เปลี่ยนคอมเพรสเซอร์ วัดใหญ่ชัยมงคล",
+        desc: "",
+        images: [
+            "images/portfolio/watyai_compressor1.jpg",
+            "images/portfolio/watyai_compressor2.jpg",
+            "images/portfolio/watyai_compressor3.jpg",
+            "images/portfolio/watyai_compressor4.jpg",
+            "images/portfolio/watyai_compressor5.jpg",
+            "images/portfolio/watyai_compressor6.jpg",
+            "images/portfolio/watyai_compressor7.jpg",
+            "images/portfolio/watyai_compressor8.jpg",
+            "images/portfolio/watyai_compressor9.jpg",
+            "images/portfolio/watyai_compressor10.jpg",
+            "images/portfolio/watyai_compressor11.jpg",
+            "images/portfolio/watyai_compressor12.jpg"
+        ]
+    },
+    xdorm: {
+        title: "หอพักคุณเอ็กซ์",
+        desc: "ติดตั้งแอร์ Mitsubishi Heavy duty ที่หอพักคุณเอ็กซ์",
+        images: [
+            "images/portfolio/xdorm1.jpg",
+            "images/portfolio/xdorm2.jpg",
+            "images/portfolio/xdorm3.jpg",
+            "images/portfolio/xdorm4.jpg"
+        ]
+    },
+    // ----------------------- หน่วยงานราชการ -----------------------
     schoolnawong: {
         title: "โรงเรียนนาวง จังหวัดปทุมธานี",
         desc: "ห้องเรียนคอมพิวเตอร์ เลือกติดตั้งเครื่องปรับอากาศ คุณภาพดีราคาประหยัด ยี่ห้อไดเซนโกะแบบแขวนใต้เพดาน ขนาด 30000 บีทียู หลังติดตั้งมีอะไหล่รองรับและราคาถูก จึงเป็นอีกยี่ห้อที่ทางร้านแนะนำสำหรับ ร้านค้า อาคารพาณิชย์และส่วนงานราชการ.",
@@ -162,6 +242,16 @@ window.portfolioData = {
             "images/portfolio/revenuemaha4.jpg"
         ]
     },
+    ruralroaday: {
+        title: "หมวดบำรุงทางหลวงชนบท",
+        desc: "",
+        images: [
+            "images/portfolio/ruralroaday1.jpg",
+            "images/portfolio/ruralroaday2.jpg",
+            "images/portfolio/ruralroaday3.jpg",
+            "images/portfolio/ruralroaday4.jpg"
+        ]
+    },
     municbangbal: {
         title: "เทศบาลบางบาล",
         desc: "",
@@ -175,7 +265,29 @@ window.portfolioData = {
             "images/portfolio/municbangbal7.jpg"
         ]
     },
-    // ที่พักอาศัย            
+    elderyhome: {
+        title: "บ้านพักคนชรา",
+        desc: "",
+        images: [
+            "images/portfolio/elderyhome1.jpg",
+            "images/portfolio/elderyhome2.jpg",
+            "images/portfolio/elderyhome3.jpg",
+            "images/portfolio/elderyhome4.jpg",
+            "images/portfolio/elderyhome5.jpg",
+            "images/portfolio/elderyhome6.jpg",
+            "images/portfolio/elderyhome7.jpg",
+            "images/portfolio/elderyhome8.jpg",
+            "images/portfolio/elderyhome9.jpg",
+            "images/portfolio/elderyhome10.jpg",
+            "images/portfolio/elderyhome11.jpg",
+            "images/portfolio/elderyhome12.jpg",
+            "images/portfolio/elderyhome13.jpg",
+            "images/portfolio/elderyhome14.jpg",
+            "images/portfolio/elderyhome15.jpg",
+            "images/portfolio/elderyhome16.jpg"
+        ]
+    },
+    // ----------------------- ที่พักอาศัย -----------------------           
     parkland: {
         title: "คอนโด The Parkland วงศ์สว่าง",
         desc: "",
@@ -220,36 +332,6 @@ window.portfolioData = {
             "images/portfolio/bangbal2.8.jpg"
         ]
     },
-    riche: {
-        title: "ร้านเสริมสวย Riche",
-        desc: "",
-        images: [
-            "images/portfolio/riche1.jpg",
-            "images/portfolio/riche2.jpg",
-            "images/portfolio/riche3.jpg",
-            "images/portfolio/riche4.jpg"
-        ]
-    },
-    vetkrungsri: {
-        title: "โรงพยาบาลสัตว์กรุงศรี",
-        desc: "",
-        images: [
-            "images/portfolio/vetkrungsri1.jpg",
-            "images/portfolio/vetkrungsri2.jpg",
-            "images/portfolio/vetkrungsri3.jpg",
-            "images/portfolio/vetkrungsri4.jpg"
-        ]
-    },
-    yookya: {
-        title: "ร้านหยูกยา",
-        desc: "",
-        images: [
-            "images/portfolio/yookya1.jpg",
-            "images/portfolio/yookya2.jpg",
-            "images/portfolio/yookya3.jpg",
-            "images/portfolio/yookya4.jpg"
-        ]
-    },
     pakkran1: {
         title: "ที่พักอาศัยลูกค้า ต.ปากกราน",
         desc: "",
@@ -264,14 +346,14 @@ window.portfolioData = {
             "images/portfolio/pakkran1.8.jpg"
         ]
     },
-    ruralroaday: {
-        title: "หมวดบำรุงทางหลวงชนบท",
-        desc: "",
+    sabaivillage: {
+        title: "หมู่บ้านสบายสบาย",
+        desc: "ติดตั้งแอร์ Daikin ที่หมู่บ้านสบายสบาย",
         images: [
-            "images/portfolio/ruralroaday1.jpg",
-            "images/portfolio/ruralroaday2.jpg",
-            "images/portfolio/ruralroaday3.jpg",
-            "images/portfolio/ruralroaday4.jpg"
+            "images/portfolio/sabaivillage1.jpg",
+            "images/portfolio/sabaivillage2.jpg",
+            "images/portfolio/sabaivillage3.jpg",
+            "images/portfolio/sabaivillage4.jpg"
         ]
     }
 };
@@ -292,8 +374,12 @@ window.portfolioCategories = [
             { key: "yookya", thumb: "images/portfolio/yookya2.jpg", thumbAlt: "ติดตั้งแอร์ร้านหยูกยา อ.เซ็นเตอร์" },
             { key: "sabaipliw", thumb: "images/portfolio/sabaipliw1.jpg", thumbAlt: "ติดตั้งแอร์ร้านสไบปลิว อ.เซ็นเตอร์" },
             { key: "srisiambarber", thumb: "images/portfolio/srisiambarber1.jpg", thumbAlt: "ติดตั้งแอร์ร้านตัดผมชายศรีสยาม อ.เซ็นเตอร์" },
-            { key: "tashorm", thumb: "images/portfolio/tashorm1.jpg", thumbAlt: "ติดตั้งแอร์หจก.ทาสหอม อ.เซ็นเตอร์" },
-            { key: "utaiprint", thumb: "images/portfolio/utaiprint1.jpg", thumbAlt: "ติดตั้งแอร์หจก.อุทัยการพิมพ์ อ.เซ็นเตอร์" }
+            { key: "tashorm", thumb: "images/portfolio/tashorm9.jpg", thumbAlt: "ติดตั้งแอร์หจก.ทาสหอม อ.เซ็นเตอร์" },
+            { key: "utaiprint", thumb: "images/portfolio/utaiprint1.jpg", thumbAlt: "ติดตั้งแอร์หจก.อุทัยการพิมพ์ อ.เซ็นเตอร์" },
+            { key: "inudomdorm", thumb: "images/portfolio/inudomdorm1.jpg", thumbAlt: "ติดตั้งแอร์หอพักอินทร์อุดม อ.เซ็นเตอร์" },
+            { key: "chaimongkol", thumb: "images/portfolio/chaimongkol1.jpg", thumbAlt: "ติดตั้งแอร์บ.ชัยมงคล อุตสาหกรรม จำกัด อ.เซ็นเตอร์" },
+            { key: "watyai_compressor", thumb: "images/portfolio/watyai_compressor1.jpg", thumbAlt: "ติดตั้งแอร์วัดใหญ่ชัยมงคล อ.เซ็นเตอร์" },
+            { key: "xdorm", thumb: "images/portfolio/xdorm1.jpg", thumbAlt: "ติดตั้งแอร์หอพักคุณเอ็กซ์ อ.เซ็นเตอร์" }
         ]
     },
     {
@@ -304,7 +390,8 @@ window.portfolioCategories = [
             { key: "courtay", thumb: "images/portfolio/courtay1.jpg", thumbAlt: "ติดตั้งแอร์ศาลจังหวัดอยุธยา อ.เซ็นเตอร์" },
             { key: "revenuemaha", thumb: "images/portfolio/revenuemaha1.jpg", thumbAlt: "ติดตั้งแอร์สรรพากรอำเภอมหาราช อ.เซ็นเตอร์" },
             { key: "ruralroaday", thumb: "images/portfolio/ruralroaday1.jpg", thumbAlt: "ติดตั้งแอร์หมวดบำรุงทางหลวงชนบท อ.เซ็นเตอร์" },
-            { key: "municbangbal", thumb: "images/portfolio/municbangbal1.jpg", thumbAlt: "ติดตั้งแอร์เทศบาลบางบาล อ.เซ็นเตอร์" }
+            { key: "municbangbal", thumb: "images/portfolio/municbangbal1.jpg", thumbAlt: "ติดตั้งแอร์เทศบาลบางบาล อ.เซ็นเตอร์" },
+            { key: "elderyhome", thumb: "images/portfolio/elderyhome9.jpg", thumbAlt: "ติดตั้งแอร์บ้านพักคนชรา อ.เซ็นเตอร์" }
         ]
     },
     {
@@ -315,7 +402,8 @@ window.portfolioCategories = [
             { key: "flora", thumb: "images/portfolio/flora1.jpg", thumbAlt: "ติดตั้งแอร์หมู่บ้านFlora อ.เซ็นเตอร์" },
             { key: "bangbal1", thumb: "images/portfolio/bangbal1.1.jpg", thumbAlt: "ติดตั้งแอร์อำเภอบางบาล อ.เซ็นเตอร์" },
             { key: "bangbal2", thumb: "images/portfolio/bangbal2.4.jpg", thumbAlt: "ติดตั้งแอร์อำเภอบางบาล อ.เซ็นเตอร์" },
-            { key: "pakkran1", thumb: "images/portfolio/pakkran1.1.jpg", thumbAlt: "ติดตั้งแอร์ที่พักอาศัยลูกค้า ต.ปากกราน อ.เซ็นเตอร์" }
+            { key: "pakkran1", thumb: "images/portfolio/pakkran1.1.jpg", thumbAlt: "ติดตั้งแอร์ที่พักอาศัยลูกค้า ต.ปากกราน อ.เซ็นเตอร์" },
+            { key: "sabaivillage", thumb: "images/portfolio/sabaivillage1.jpg", thumbAlt: "ติดตั้งแอร์หมู่บ้านสบายสบาย อ.เซ็นเตอร์" }
         ]
     }
 ];
